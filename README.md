@@ -1,7 +1,7 @@
 # Polarnet implementation as described in "The (new) Turing Omnibus"
 Polarnet converts from polar coordinates to cartesian. A graph is produced after the training is complete showing the the error rate for each training iteration.
 
-## Screens
+## Screens: X = Iteration, Y = Error size
 
 5000 iterations, 25 neurons per layer, 0.01 learning rate
 ![](https://i.imgur.com/tELxFko.png "")
