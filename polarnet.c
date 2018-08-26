@@ -103,7 +103,7 @@ void coordinateConvert(void)
         output[i] = 0;
         for (int j = 0; j < MEDIALNEURONS; j++)
             output[i] = output[i] + syntwo[j][i] * medialout[j];
-        target[i] = (i == 0) ? cos(input[1]) : sin(input[1]);
+        target[i] = (i == 0) ? cos((input[1]*PI)+PI) : sin((input[1]*PI)+PI);
         error[i] = target[i] - output[i];
     }
 }
